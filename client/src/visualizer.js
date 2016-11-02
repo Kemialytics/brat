@@ -3089,8 +3089,6 @@ Util.profileClear();
 Util.profileStart('before render');
 
             renderDocument();
-          } else {
-            dispatcher.post(0, 'renderError:noFileSpecified');
           }
         }
       };
