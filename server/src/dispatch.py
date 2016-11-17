@@ -134,6 +134,10 @@ REQUIRES_AUTHENTICATION = ANNOTATION_ACTION | set((
         'searchNoteInCollection',
 
         'tag',
+        'getCollectionInformation',
+        'getDocument',
+        'downloadFile',
+        'downloadCollection',
         ))
 
 # Sanity check

@@ -2031,10 +2031,7 @@ var VisualizerUI = (function($, window, undefined) {
               dispatcher.post('user', [null]);
               $('.login').hide();
               // don't show tutorial if there's a specific document (annoyance)
-              if (!doc) {
-                dispatcher.post('showForm', [tutorialForm]);
-                $('#tutorial-ok').focus();
-              }
+              dispatcher.post('showForm', [authForm]);
             }
           },
           { keep: true }
